@@ -19,3 +19,17 @@ Depth First Search Uses Stack and Recursion
 Insert a START node to the STACK
 Find its Successors Or neighbors and Check whether the node is visited or not
 If Not Visited, add it to the STACK. Else Call The Function Again Until No more nodes needs to be visited.
+
+**Sample Input**
+A B
+A C
+B D
+B E
+C E
+D E
+
+**Sample Output**
+Graph: {'A': ['B', 'C'], 'B': ['A', 'D', 'E'], 'C': ['A', 'E'], 'D': ['B', 'E'], 'E': ['B', 'C', 'D']}
+DFS Traversal Path: ['A', 'B', 'D', 'E', 'C']
+
+**Result:**
